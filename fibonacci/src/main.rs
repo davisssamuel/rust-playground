@@ -12,10 +12,7 @@ fn main() {
 
         match input_num.trim().parse() {
             Ok(num) => break num,
-            Err(_) => {
-                println!("Input must be nonnegative");
-                continue
-            },
+            Err(_) => println!("Input must be nonnegative"),
         };
     };
 

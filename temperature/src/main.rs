@@ -23,10 +23,7 @@ fn main() {
 
         match input_temp[..index].trim().parse() {
             Ok(num) => break num,
-            Err(_) => {
-                println!("Input must be a number");
-                continue;
-            }
+            Err(_) => println!("Input must be a number"),
         };
     };
 
