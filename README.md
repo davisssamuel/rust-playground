@@ -1,4 +1,6 @@
-Exercises I've worked through while reading the Rust Book.
+My development playground for learning Rust.
+
+---
 
 To run a specific package, use:
 

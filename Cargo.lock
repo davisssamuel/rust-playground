@@ -3,10 +3,18 @@
 version = 4
 
 [[package]]
+name = "calc-median"
+version = "0.1.0"
+
+[[package]]
 name = "cfg-if"
 version = "1.0.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4e7648175b45a9a48536d676f68d918270699102aa8dab5496df06904c914600"
+
+[[package]]
+name = "convert-temp"
+version = "0.1.0"
 
 [[package]]
 name = "fibonacci"
@@ -24,7 +32,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "guessing_game"
+name = "guessing-game"
 version = "0.1.0"
 dependencies = [
  "rand",
@@ -94,6 +102,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "reverse-bytes"
+version = "0.1.0"
+
+[[package]]
 name = "syn"
 version = "2.0.119"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -103,10 +115,6 @@ dependencies = [
  "quote",
  "unicode-ident",
 ]
-
-[[package]]
-name = "temperature"
-version = "0.1.0"
 
 [[package]]
 name = "unicode-ident"

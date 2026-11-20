@@ -1,7 +1,3 @@
 [workspace]
 resolver = "2"
-members = [
-    "fibonacci",
-    "guessing_game",
-    "temperature",
-]
+members = ["calc-median","convert-temp", "fibonacci", "guessing-game", "reverse-bytes"]
